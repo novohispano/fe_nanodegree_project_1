@@ -1,134 +1,136 @@
-/** Zocial **/
-@import url(http://weloveiconfonts.com/api/?family=zocial);
+@media screen and (min-width: 0px) {
+  /** Zocial **/
+  @import url(http://weloveiconfonts.com/api/?family=zocial);
 
-/** Thinner **/
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 100;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2");
-}
+  /** Thinner **/
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 100;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2");
+  }
 
-/** Thin **/
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 200;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
-}
+  /** Thin **/
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 200;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+  }
 
-/** Medium **/
-@font-face {
-  font-family: "San Francisco";
-  font-weight: normal;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2");
-}
+  /** Medium **/
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: normal;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2");
+  }
 
-/** Semi Bold **/
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 500;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2");
-}
+  /** Semi Bold **/
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 500;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2");
+  }
 
-/** Bold **/
-@font-face {
-  font-family: "San Francisco";
-  font-weight: bold;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2");
-}
+  /** Bold **/
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: bold;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2");
+  }
 
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-}
+  [class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+  }
 
-[class*="zocial-"] {
-  width: calc(100% / 4);
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-}
+  [class*="zocial-"] {
+    width: calc(100% / 4);
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+  }
 
-[class*="zocial-"]:hover {
-  color: #ff9800;
-}
+  [class*="zocial-"]:hover {
+    color: #ff9800;
+  }
 
-body {
-  font-family: "San Francisco", sans-serif;
-  width: 100%;
-  margin: 0px;
-}
+  body {
+    font-family: "San Francisco", sans-serif;
+    width: 100%;
+    margin: 0px;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-  line-height: 1.2em;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    line-height: 1.2em;
+  }
 
-.leader h1 {
-  margin: 0px;
-  color: #fff;
-}
+  .leader h1 {
+    margin: 0px;
+    color: #fff;
+  }
 
-.leader h3 {
-  margin: 0px;
-  color: #ff9800;
-}
+  .leader h3 {
+    margin: 0px;
+    color: #ff9800;
+  }
 
-.leader {
-  background-color: #263248;
-  padding: 20px 20px;
-}
+  .leader {
+    background-color: #263248;
+    padding: 20px 20px;
+  }
 
-.social {
-  display: flex;
-  background-color: #000;
-  padding: 10px 0px;
-  width: 100%
-}
+  .social {
+    display: flex;
+    background-color: #000;
+    padding: 10px 0px;
+    width: 100%
+  }
 
-.project h4 {
-  font-weight: 200;
-  margin-bottom: 0px;
-  color: #7e8aa2;
-}
+  .project h4 {
+    font-weight: 200;
+    margin-bottom: 0px;
+    color: #7e8aa2;
+  }
 
-.project h3 {
-  font-weight: bold;
-  margin-top: 0px;
-  color: #263248;
-}
+  .project h3 {
+    font-weight: bold;
+    margin-top: 0px;
+    color: #263248;
+  }
 
-.project figure {
-  margin: 0px;
-  width: 100%;
-}
+  .project figure {
+    margin: 0px;
+    width: 100%;
+  }
 
-.project figcaption {
-  padding: 10px 20px;
-  color: #263248;
-  font-weight: 200;
-}
+  .project figcaption {
+    padding: 10px 20px;
+    color: #263248;
+    font-weight: 200;
+  }
 
-.project img {
-  display: block;
-  width: 100%;
-  border-top: 1px #7e8aa2 solid;
-  border-bottom: 1px #7e8aa2 solid;
-}
+  .project img {
+    display: block;
+    width: 100%;
+    border-top: 1px #7e8aa2 solid;
+    border-bottom: 1px #7e8aa2 solid;
+  }
 
-footer {
-  background-color: #263248;
-  padding: 10px 20px;
-}
+  footer {
+    background-color: #263248;
+    padding: 10px 20px;
+  }
 
-footer a {
-  color: #ff9800;
-  text-decoration: none;
-}
+  footer a {
+    color: #ff9800;
+    text-decoration: none;
+  }
 
-footer a:hover {
-  color: #fff;
+  footer a:hover {
+    color: #fff;
+  }
 }

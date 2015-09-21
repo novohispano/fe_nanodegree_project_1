@@ -15,34 +15,44 @@ module.exports = function(grunt) {
           engine: 'im',
           sizes: [{
             quality: 100,
-            suffix: "-x2",
+            suffix: "_x2",
             name: "small",
             width: 400
           },{
             quality: 100,
-            suffix: "-x2",
+            suffix: "_x2",
             name: "medium",
             width: 800
           },{
             quality: 100,
-            suffix: "-x2",
+            suffix: "_x2",
             name: "large",
             width: 1200
           },{
-            quality: 60,
-            suffix: "-x1",
+            quality: 100,
+            suffix: "_x2",
+            name: "xlarge",
+            width: 1400
+          },{
+            quality: 80,
+            suffix: "_x1",
             name: "small",
             width: 400
           },{
-            quality: 60,
-            suffix: "-x1",
+            quality: 80,
+            suffix: "_x1",
             name: "medium",
             width: 800
           },{
-            quality: 60,
-            suffix: "-x1",
+            quality: 80,
+            suffix: "_x1",
             name: "large",
             width: 1200
+          },{
+            quality: 80,
+            suffix: "_x1",
+            name: "xlarge",
+            width: 1400
           }]
         },
 
