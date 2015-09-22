@@ -1,132 +1,109 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Jorge's Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-    <div class="leader" id="#top">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jorge's Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header id="#top">
+    <div class="content">
       <h3>PORTFOLIO</h3>
       <h1>Jorge Téllez</h1>
     </div>
-    <div class="social">
+  </header>
+  <div class="social">
+    <div class="content">
       <a href="http://facebook.com/novohispano" alt="Facebook" class="zocial-facebook"></a>
-      <a href="http://twitter.com/novohispano"  alt="Twitter"  class="zocial-twitter"></a>
+      <a href="http://twitter.com/novohispano" alt="Twitter" class="zocial-twitter"></a>
       <a href="http://linkedin.com/novohispano" alt="LinkedIn" class="zocial-linkedin"></a>
-      <a href="http://github.com/novohispano"   alt="Github"   class="zocial-github"></a>
+      <a href="http://github.com/novohispano" alt="Github" class="zocial-github"></a>
+    </div>
+  </div>
+
+  <div class="projects">
+    <div class="project" id="project-1">
+      <figure>
+        <picture>
+          <source media="(max-width: 400px)" srcset="assets/images/lumen-small_x2.jpg 2x, assets/images/lumen-small_x1.jpg">
+          <source media="(max-width: 800px)" srcset="assets/images/lumen-medium_x2.jpg 2x, assets/images/lumen-medium_x1.jpg">
+          <source media="(max-width: 1200px)" srcset="assets/images/lumen-large_x2.jpg 2x, assets/images/lumen-large_x1.jpg">
+          <source media="(min-width: 1201px)" srcset="assets/images/lumen-xlarge_x2.jpg 2x, assets/images/lumen-xlarge_x1.jpg">
+          <img src="assets/images/lumen-small_x1.jpg" alt="Proyecto Lumen">
+        </picture>
+        <figcaption>
+          <h4>June 2015</h4>
+          <h3>Proyecto Lumen</h3>
+          <p>
+            Proyecto Lumen is a Venezuelan NGO working to improve the visual health of vulnerable populations. The site was designed around the content, pictures in particular, and was built with Ruby, Ruby on Rails, and Bootstrap.
+          </p>
+        </figcaption>
+      </figure>
     </div>
 
-    <div class="projects">
-      <div class="project">
-        <figure>
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset="assets/images/lumen-small_x2.jpg 2x, assets/images/lumen-small_x1.jpg">
-            <source
-              media="(max-width: 800px)"
-              srcset="assets/images/lumen-medium_x2.jpg 2x, assets/images/lumen-medium_x1.jpg">
-            <source
-              media="(max-width: 1200px)"
-              srcset="assets/images/lumen-large_x2.jpg 2x, assets/images/lumen-large_x1.jpg">
-            <source
-              media="(max-width: 1400px)"
-              srcset="assets/images/lumen-xlarge_x2.jpg 2x, assets/images/lumen-xlarge_x1.jpg">
-            <img src="assets/images/lumen-small_x1.jpg" alt="Proyecto Lumen">
-          </picture>
-          <figcaption>
-            <h4>June 2015</h4>
-            <h3>Proyecto Lumen</h3>
-            <p>
-              Proyecto Lumen is a Venezuelan NGO working to improve the visual health of vulnerable populations. The site was designed around the content, pictures in particular, and was built with Ruby, Ruby on Rails, and Bootstrap.
-            </p>
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="project">
-        <figure>
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset="assets/images/bandmatch-small_x2.jpg 2x, assets/images/bandmatch-small_x1.jpg">
-            <source
-              media="(max-width: 800px)"
-              srcset="assets/images/bandmatch-medium_x2.jpg 2x, assets/images/bandmatch-medium_x1.jpg">
-            <source
-              media="(max-width: 1200px)"
-              srcset="assets/images/bandmatch-large_x2.jpg 2x, assets/images/bandmatch-large_x1.jpg">
-            <source
-              media="(max-width: 1400px)"
-              srcset="assets/images/bandmatch-xlarge_x2.jpg 2x, assets/images/bandmatch-xlarge_x1.jpg">
-            <img src="assets/images/bandmatch-small_x1.jpg" alt="Bandmatch" />
-          </picture>
-          <figcaption>
-            <h4>April 2013</h4>
-            <h3>Bandmatch</h3>
-            <p>
-              Bandmatch is an application that allows you to find local concerts, create plans and meet new people. The site uses SongKick and Google Maps API, and was built with Ruby, Ruby on Rails, and Bootstrap.
-            </p>
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="project">
-        <figure>
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset="assets/images/obigear-small_x2.jpg 2x, assets/images/obigear-small_x1.jpg">
-            <source
-              media="(max-width: 800px)"
-              srcset="assets/images/obigear-medium_x2.jpg 2x, assets/images/obigear-medium_x1.jpg">
-            <source
-              media="(max-width: 1200px)"
-              srcset="assets/images/obigear-large_x2.jpg 2x, assets/images/obigear-large_x1.jpg">
-            <source
-              media="(max-width: 1400px)"
-              srcset="assets/images/obigear-xlarge_x2.jpg 2x, assets/images/obigear-xlarge_x1.jpg">
-            <img src="assets/images/obigear-small_x1.jpg" alt="Obigear" />
-          </picture>
-          <figcaption>
-            <h4>May 2013</h4>
-            <h3>Obigear</h3>
-            <p>
-              Obigear is outdoor clothing ecommerce site based in Denver, Colorado. The site was a project was built during a developer program using Ruby, Ruby on Rails, and Bootstrap.
-            </p>
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="project">
-        <figure>
-          <picture>
-            <source
-              media="(max-width: 400px)"
-              srcset="assets/images/studentlab-small_x2.jpg 2x, assets/images/studentlab-small_x1.jpg">
-            <source
-              media="(max-width: 800px)"
-              srcset="assets/images/studentlab-medium_x2.jpg 2x, assets/images/studentlab-medium_x1.jpg">
-            <source
-              media="(max-width: 1200px)"
-              srcset="assets/images/studentlab-large_x2.jpg 2x, assets/images/studentlab-large_x1.jpg">
-            <source
-              media="(max-width: 1400px)"
-              srcset="assets/images/studentlab-xlarge_x2.jpg 2x, assets/images/studentlab-xlarge_x1.jpg">
-            <img src="assets/images/studentlab-small_x1.jpg" alt="Student Lab" />
-          </picture>
-          <figcaption>
-            <h4>August 2014</h4>
-            <h3>Student Lab</h3>
-            <p>
-              Student Lab was an app to manage student information and interactions with instructors. The site was built with Ruby, Ruby on Rails, and Bootstrap.
-            </p>
-          </figcaption>
-        </figure>
-      </div>
+    <div class="project" id="project-2">
+      <figure>
+        <picture>
+          <source media="(max-width: 400px)" srcset="assets/images/bandmatch-small_x2.jpg 2x, assets/images/bandmatch-small_x1.jpg">
+          <source media="(max-width: 800px)" srcset="assets/images/bandmatch-medium_x2.jpg 2x, assets/images/bandmatch-medium_x1.jpg">
+          <source media="(max-width: 1200px)" srcset="assets/images/bandmatch-large_x2.jpg 2x, assets/images/bandmatch-large_x1.jpg">
+          <source media="(min-width: 1201px)" srcset="assets/images/bandmatch-xlarge_x2.jpg 2x, assets/images/bandmatch-xlarge_x1.jpg">
+          <img src="assets/images/bandmatch-small_x1.jpg" alt="Bandmatch">
+        </picture>
+        <figcaption>
+          <h4>April 2013</h4>
+          <h3>Bandmatch</h3>
+          <p>
+            Bandmatch is an application that allows you to find local concerts, create plans and meet new people. The site uses SongKick and Google Maps API, and was built with Ruby, Ruby on Rails, and Bootstrap.
+          </p>
+        </figcaption>
+      </figure>
     </div>
 
-    <footer><a href="#top">▲ Top</a></footer>
-  </body>
+    <div class="project" id="project-3">
+      <figure>
+        <picture>
+          <source media="(max-width: 400px)" srcset="assets/images/obigear-small_x2.jpg 2x, assets/images/obigear-small_x1.jpg">
+          <source media="(max-width: 800px)" srcset="assets/images/obigear-medium_x2.jpg 2x, assets/images/obigear-medium_x1.jpg">
+          <source media="(max-width: 1200px)" srcset="assets/images/obigear-large_x2.jpg 2x, assets/images/obigear-large_x1.jpg">
+          <source media="(min-width: 1201px)" srcset="assets/images/obigear-xlarge_x2.jpg 2x, assets/images/obigear-xlarge_x1.jpg">
+          <img src="assets/images/obigear-small_x1.jpg" alt="Obigear">
+        </picture>
+        <figcaption>
+          <h4>May 2013</h4>
+          <h3>Obigear</h3>
+          <p>
+            Obigear is outdoor clothing ecommerce site based in Denver, Colorado. The site was a project was built during a developer program using Ruby, Ruby on Rails, and Bootstrap.
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="project" id="project-4">
+      <figure>
+        <picture>
+          <source media="(max-width: 400px)" srcset="assets/images/studentlab-small_x2.jpg 2x, assets/images/studentlab-small_x1.jpg">
+          <source media="(max-width: 800px)" srcset="assets/images/studentlab-medium_x2.jpg 2x, assets/images/studentlab-medium_x1.jpg">
+          <source media="(max-width: 1200px)" srcset="assets/images/studentlab-large_x2.jpg 2x, assets/images/studentlab-large_x1.jpg">
+          <source media="(min-width: 1201px)" srcset="assets/images/studentlab-xlarge_x2.jpg 2x, assets/images/studentlab-xlarge_x1.jpg">
+          <img src="assets/images/studentlab-small_x1.jpg" alt="Student Lab">
+        </picture>
+        <figcaption>
+          <h4>August 2014</h4>
+          <h3>Student Lab</h3>
+          <p>
+            Student Lab was an app to manage student information and interactions with instructors. The site was built with Ruby, Ruby on Rails, and Bootstrap.
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <footer>
+    <a href="#top">▲ Top</a>
+  </footer>
+</body>
+
 </html>
