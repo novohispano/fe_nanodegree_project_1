@@ -1,53 +1,45 @@
-/** Zocial **/
+/* Zocial Font */
 @import url(http://weloveiconfonts.com/api/?family=zocial);
-@media screen and (min-width: 0px) {
-    /** Thinner **/
+
+@media screen and (min-width: 0) {
+    /* San Francisco Font */
     @font-face {
         font-family: "San Francisco";
         font-weight: 100;
-        src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2");
+        src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2);
     }
-    /** Thin **/
+
     @font-face {
         font-family: "San Francisco";
         font-weight: 200;
-        src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+        src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2);
     }
-    /** Medium **/
+
     @font-face {
         font-family: "San Francisco";
         font-weight: normal;
-        src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2");
+        src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2);
     }
-    /** Semi Bold **/
+
     @font-face {
         font-family: "San Francisco";
         font-weight: 500;
-        src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2");
+        src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2);
     }
-    /** Bold **/
+
     @font-face {
         font-family: "San Francisco";
         font-weight: bold;
-        src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2");
+        src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2);
     }
-    [class*="zocial-"]:before {
-        font-family: 'zocial', sans-serif;
-    }
-    [class*="zocial-"] {
-        width: calc(100% / 4);
-        text-align: center;
-        text-decoration: none;
-        color: #fff;
-    }
-    [class*="zocial-"]:hover {
-        color: #ff9800;
-    }
+
+    /* Base Styles */
     body {
         font-family: "San Francisco", sans-serif;
         width: 100%;
-        margin: 0px;
+        margin: 0;
     }
+
     h1,
     h2,
     h3,
@@ -57,114 +49,167 @@
         font-weight: bold;
         line-height: 1.2em;
     }
+
+    /* Header */
     header h1 {
-        margin: 0px;
+        margin: 0;
         color: #fff;
     }
+
     header h3 {
-        margin: 0px;
+        margin: 0;
         color: #ff9800;
     }
+
     header {
         background-color: #263248;
         padding: 20px 20px;
     }
+
+    /* Social */
+    [class*="zocial-"]:before {
+        font-family: 'zocial', sans-serif;
+    }
+
+    [class*="zocial-"] {
+        width: calc(100% / 4);
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    [class*="zocial-"]:hover {
+        color: #ff9800;
+    }
+
     .social {
         background-color: #000;
-        padding: 10px 0px;
+        padding: 10px 0;
         width: 100%;
     }
+
     .social .content {
         display: flex;
     }
+
+    /* Projects */
     .project h4 {
         font-weight: 200;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         color: #7e8aa2;
     }
+
     .project h3 {
         font-weight: bold;
-        margin-top: 0px;
+        margin-top: 0;
         color: #263248;
     }
+
     .project figure {
-        margin: 0px;
+        margin: 0;
         width: 100%;
     }
+
     .project figcaption {
         padding: 10px 20px;
         color: #263248;
         font-weight: 200;
     }
+
     .project img {
         display: block;
         width: 100%;
     }
+
+    /* Footer */
     footer {
         background-color: #263248;
         padding: 10px 20px;
     }
+
     footer a {
         color: #ff9800;
         text-decoration: none;
     }
+
     footer a:hover {
         color: #fff;
     }
+
 }
+
 @media screen and (min-width: 800px) {
+    /* Projects */
     .projects {
         width: 100%;
         min-height: 80vh;
     }
+
     .project {
         margin-top: 40px;
     }
+
     figure {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
+
     picture {
         width: 50%;
     }
+
     figcaption {
         width: calc(50% - 40px);
     }
+
 }
+
 @media screen and (min-width: 1200px) {
+    /* Social */
     [class*="zocial-"] {
         width: auto;
         margin-left: 20px;
         text-align: left;
     }
-    picture {
-        width: 70%;
-    }
-    figcaption {
-        width: calc(30% - 40px);
-    }
+
+    /* Projects */
     .project {
         margin-top: 100px;
     }
+
+    picture {
+        width: 70%;
+    }
+
+    figcaption {
+        width: calc(30% - 40px);
+    }
 }
+
 @media screen and (min-width: 1400px) {
+    /* Container */
     .content {
         max-width: 1400px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
+
+    /* Projects */
     .projects {
         max-width: 1400px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
+
 }
+
 @media screen and (min-width: 1450px) {
+    /* Zocial Icons */
     [class*="zocial-"] {
-        margin-left: 0px;
+        margin-left: 0;
     }
+
     [class*="zocial-"]:nth-last-of-type(-n+3) {
         margin-left: 20px;
     }
+
 }
